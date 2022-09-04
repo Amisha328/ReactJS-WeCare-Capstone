@@ -1,0 +1,75 @@
+        .place-col {
+            width: 80%;
+          }
+        
+        .place-container {
+          text-align: center;
+          width: 150%;
+        }
+        
+        .place-image {
+          position: relative;
+          justify-content: center;
+          text-align: center;
+          width: 100%;
+        }
+        
+        .wrapper {
+          position: relative;
+          float: left;
+          width: 25%;
+        }
+        h1 {
+          margin: 0 auto;
+          text-align:center;
+        }
+
+        img.resize {
+          display: inline-block;
+          max-width:25%;
+          max-height:25%;
+        }
+        
+        /* .title, .sub-title {
+          margin: 0;
+          padding: 3px 10px 3px 0;
+        } */
+
+        .signup-row {
+          display: flex;
+          position: relative;
+          justify-content: center;
+        }
+/* Footer Styling */
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #070707;
+  border-top: 1px solid #ddd;
+}
+
+footer .text-muted {
+  margin-top: 10px;
+}
+
+div.container-fluid {
+  margin-bottom: 5px;
+}
+
+/* Footer Styling end */
+.place-row {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  left: 17%;
+  top: 50%;
+  transform: translate(0, -50%);
+}

@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "password": "maria12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "maria@gmail.com",
+      "mobileNumber": 1234567890,
+      "pincode": 123456,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "name": "Misha",
+      "password": "misha@123",
+      "gender": "F",
+      "dateOfBirth": "1999-10-09",
+      "mobileNumber": "7894561230",
+      "email": "misha@gmail.com",
+      "pincode": "222001",
+      "city": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "id": 2
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "password": "rose12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "name": "Amisha",
+      "password": "amisha@123",
+      "gender": "F",
+      "dateOfBirth": "1999-10-22",
+      "mobileNumber": "7894561230",
+      "speciality": "Leadership",
+      "id": 2
+    },
+    {
+      "name": "Akshit",
+      "password": "akshit@123",
+      "gender": "M",
+      "dateOfBirth": "2000-08-23",
+      "mobileNumber": "7894561230",
+      "speciality": "Teamwork spirit",
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2020-09-24",
+      "slot": "10 AM to 11 AM",
+      "userId": 1,
+      "coachId": 1,
+      "id": 1
+    },
+    {
+      "appointmentDate": "2020-10-24",
+      "slot": "10 AM to 11 AM",
+      "userId": 2,
+      "coachId": 2,
+      "id": 2
+    },
+    {
+      "appointmentDate": "2021-10-22",
+      "slot": "9 AM to 11 AM",
+      "userId": 2,
+      "coachId": 1,
+      "id": 3
+    }
+  ]
+}
