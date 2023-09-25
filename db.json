@@ -25,6 +25,19 @@
       "state": "Uttar Pradesh",
       "country": "India",
       "id": 2
+    },
+    {
+      "name": "Ryle",
+      "password": "ryle@123",
+      "gender": "M",
+      "dateOfBirth": "2000-09-01",
+      "mobileNumber": "7851062304",
+      "email": "ryle01@gmail.com",
+      "pincode": "156978",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "id": 3
     }
   ],
   "coaches": [
@@ -54,6 +67,24 @@
       "mobileNumber": "7894561230",
       "speciality": "Teamwork spirit",
       "id": 3
+    },
+    {
+      "name": "Allysa",
+      "password": "allysa@123",
+      "gender": "F",
+      "dateOfBirth": "1997-06-11",
+      "mobileNumber": "8974561203",
+      "speciality": "Mental disorder",
+      "id": 4
+    },
+    {
+      "name": "Ferit",
+      "password": "ferit@123",
+      "gender": "M",
+      "dateOfBirth": "1995-07-13",
+      "mobileNumber": "8794036102",
+      "speciality": "Post traumatic disorder",
+      "id": 5
     }
   ],
   "bookings": [
@@ -77,6 +108,13 @@
       "userId": 2,
       "coachId": 1,
       "id": 3
+    },
+    {
+      "appointmentDate": "2023-09-27",
+      "slot": "9 AM to 10 AM",
+      "userId": 3,
+      "coachId": 1,
+      "id": 4
     }
   ]
 }

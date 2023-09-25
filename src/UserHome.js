@@ -118,7 +118,7 @@ function UserHome() {
             //    navigate('/userappointment/'+userId)
                 navigate('/userappointment', {state:{UserId:userId}})
                setMessage("");
-               if(selectedDate.getDate() > nextDate)
+               if(currDate < nextDate && selectedDate.getDate() > nextDate)
                setMessage('Appointment Date should be any upcoming 7 days')
            else if(slotTime.length === 0)
                setMessage('Required');
@@ -144,7 +144,7 @@ function UserHome() {
                // console.log("nextDate "+nextDate);
                 const selectedDate = new Date(slotDate);
                // console.log("Selected Date "+selectedDate);
-                if(selectedDate.getDate() > nextDate)
+                if(currDate < nextDate && selectedDate.getDate() > nextDate)
                     setMessage('Required, date should be any upcoming 7 days')
                 else if(slotTime.length === 0)
                     setMessage('Required');
