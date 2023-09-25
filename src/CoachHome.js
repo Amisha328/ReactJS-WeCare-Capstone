@@ -80,7 +80,7 @@ function CoachHome(){
                                                   <div class="card shadow border bg-dark text-white">
                                                             <div class="card-body ">
                                                                                 <center>
-                                                                                <img className = "resize" alt="user" src="user_avtar.png" />
+                                                                                <img className = "resize" alt="coach" src="coach_avtar.png" />
                                                                                 <h4 >Coach Id: {coachId}</h4>
                                                                                 <p >Date of Birth:{coachDetails.dateOfBirth} <br /> Mobile No: {coachDetails.mobileNumber} <br /> 
                                                                                 Speciality: {coachDetails.speciality} </p>
