@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Web Application - Capstone - weCare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+WeCare is a web-based Life Coaching platform designed to connect users with renowned Life Coaches. It enables users to create accounts, log in, and access the expertise of accomplished Life Coaches. Users can search for Life Coaches based on their specific areas of expertise and conveniently schedule appointments within a 7-day window. Additionally, users have the flexibility to view and manage their upcoming appointments, including the ability to reschedule or cancel them. Likewise, Life Coaches have the option to register, log in, and access their own schedules, ensuring a seamless and efficient experience.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Steps used to run the web application.
 
-### `npm test`
+```bash
+# Open the application folder inside command prompt and install json-server using below command:
+npm install -g json-server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start json-server use the below command in the terminal (server at port 8080)
+npx json-server --watch db.json --port 8080
 
-### `npm run build`
+# Run the react application using the below command in the terminal:
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+List the technologies, libraries, and frameworks used in your application, including versions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js
+- React.js
+- Express.js
+- MongoDB
+- Visual Studio Code IDE
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Landing Page (Home Page)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![HomePage](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/7f945432-61be-42cb-9ced-bc02cbeea5d9)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Register As Coach:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![JoinCoach](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/9f958d2a-18ae-4696-bc71-f14365e555f8)
 
-## Learn More
+![AfterRegisteredCoach](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/022f55ec-76fa-4a0e-b165-b6a8575fb21c)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Register As User:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![JoinAsUser](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/7e5a846c-6c9b-4db0-8493-4bb397731d62)
 
-### Code Splitting
+Login As Coach:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![LoginCoach](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/82f69018-b071-49ed-8c56-85bd40797ccb)
 
-### Analyzing the Bundle Size
+View Coach Profile:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![CoachProfile](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/1af87994-f53c-4fc1-b27a-8dca6c7f4d12)
 
-### Making a Progressive Web App
+Coach Appointments Page:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![coachAppointmentPage](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/be80e3a3-5711-499b-b90d-b464d36041fb)
 
-### Advanced Configuration
+Login As User:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![LoginAsUser](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/5239ae03-fe26-40e5-a9ad-d9a41639afeb)
 
-### Deployment
+![AfterLoginPageUser](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/b865bb36-e147-4249-a3b9-2e946c0fe3ce)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+View User Profile Page:
 
-### `npm run build` fails to minify
+![ViewUserProfile](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/09b745c3-adbe-4db4-9952-3bf0b194a81d)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Book Appointment:
+
+![BookAppointment](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/d530c906-8bf9-4ddd-a5cb-c756f302585f)
+
+![AppointmentBooked](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/f8226dab-f479-41c0-a601-237bcc5562f7)
+
+User's My Appointments Page:
+
+![MyAppointments](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/78163654-70fd-4a3c-b21e-c9687c7ddc44)
+
+Reschedule Appointment:
+
+![RescheduleAppointment](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/463aabff-6e3e-46a6-9395-5ff0764c4cda)
+
+![AfterRescheduleAppointment](https://github.com/Amisha328/ReactJS-WeCare-Capstone/assets/58816552/9d33dba3-7e8d-4778-afe7-5236f6733cc1)
+
+
+---
