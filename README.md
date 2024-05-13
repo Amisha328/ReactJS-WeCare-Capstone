@@ -29,10 +29,8 @@ npm start
 
 List the technologies, libraries, and frameworks used in your application, including versions.
 
-- Node.js
+- Node
 - React.js
-- Express.js
-- MongoDB
 - Visual Studio Code IDE
 
 ## Screenshots
